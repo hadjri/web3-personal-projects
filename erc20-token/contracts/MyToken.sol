@@ -12,9 +12,9 @@ import '@openzeppelin/contracts/token/ERC20/ERC20Pausable.sol';
 import '@openzeppelin/contracts/token/ERC20/IERC20.sol';
 
 
-contract MyToken2 is SafeERC20 { }
+contract ERC20Malik2 is SafeERC20 { }
 
-contract MyToken is ERC20, ERC20Detailed, ERC20Burnable, ERC20Mintable, ERC20Capped, ERC20Pausable {
+contract ERC20Malik is ERC20, ERC20Detailed, ERC20Burnable, ERC20Mintable, ERC20Capped, ERC20Pausable {
   constructor() ERC20Detailed("MyToken", "MTN", 18) ERC20Capped(1000);
 
   function foo() external {

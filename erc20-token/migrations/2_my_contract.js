@@ -1,5 +1,5 @@
-const MyToken = artifacts.require("MyToken");
+const ERC20Malik = artifacts.require("ERC20Malik");
 
 module.exports = function(deployer) {
-  deployer.deploy(MyToken);
+  deployer.deploy(ERC20Malik);
 };
