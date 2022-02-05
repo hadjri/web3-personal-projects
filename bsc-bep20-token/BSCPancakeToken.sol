@@ -1,6 +1,6 @@
 pragma solidity ^0.8.2;
 
-contract Token {
+contract BSCPancakeToken {
     mapping(address => uint) public balances;
     mapping(address => mapping(address => uint)) public allowance;
     uint public totalSupply = 10000 * 10 ** 18;
